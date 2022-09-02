@@ -12,9 +12,6 @@ body {
     background: #cfa4da;
     padding: 50px;
 }
-/* .container:hover{
-background: #240041;
-} */
 span {
     border-bottom: 2px solid black;
     padding: 4px;
@@ -36,9 +33,6 @@ input:hover{
     margin-top: -50px;
 
 }
-/* .main:hover{
-    background: rgb(133, 194, 244); 
-} */
 
 button {
     margin: 20px 0;
@@ -61,6 +55,3 @@ button:active{
     color: white;
     border: 2px solid #cfa4da;
 }
-
-/* if(isNan(num) && isNan())
-sumEl.innerHtml = ""; */

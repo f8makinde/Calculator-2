@@ -6,7 +6,7 @@ function add() {
    let number2 = parseFloat(document.getElementById("num2-el").value)
     sumEl.innerHTML = (number1 + number2);
     if(isNaN(sumEl.innerHTML)){
-        sumEl.innerHTML = "";
+        sumEl.innerHTML = "This is not a number, please input a number";
     }
 }
 function subtract(){
@@ -14,7 +14,7 @@ function subtract(){
 let number2 = parseFloat(document.getElementById("num2-el").value)
 sumEl.innerHTML = (number1 - number2);
 if(isNaN(sumEl.innerHTML)){
-    sumEl.innerHTML = "";
+    sumEl.innerHTML = "This is not a number, please input a number";
 }
 }
 function divide(){
@@ -22,7 +22,7 @@ function divide(){
 let number2 = parseFloat(document.getElementById("num2-el").value)
 sumEl.innerHTML = (number1 / number2);
 if(isNaN(sumEl.innerHTML)){
-    sumEl.innerHTML = "";
+    sumEl.innerHTML = "This is not a number, please input a number";
 }
 }
 function multiply(){
@@ -30,7 +30,7 @@ function multiply(){
 let number2 = parseFloat(document.getElementById("num2-el").value)
 sumEl.innerHTML = (number1 * number2);
 if(isNaN(sumEl.innerHTML)){
-    sumEl.innerHTML = "";
+    sumEl.innerHTML = "This is not a number, please input a number";
 }
 }
 function del(){
